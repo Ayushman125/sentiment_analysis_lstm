@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# IDEs
+.idea/
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/ # Recursive check
+
+# Colab specific (if any)
+*.gdoc
+*.gsheet
+
+# Data (if any raw data files are large or sensitive)
+data/*.csv
+data/*.json
+
+# Trained Models & Tokenizers (Crucial - these can be large)
+*.h5
+*.keras
+*.pkl

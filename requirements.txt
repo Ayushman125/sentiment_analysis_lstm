@@ -1,0 +1,7 @@
+tensorflow>=2.0.0
+numpy
+pandas
+nltk
+streamlit>=1.0.0 # Include if you ever plan to run a local Streamlit app
+scikit-learn
+tqdm
