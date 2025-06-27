@@ -28,7 +28,8 @@ This project focuses on building and evaluating a deep learning model for sentim
 
 Markdown
 
-## Project Structure
+```markdown
+# Project Structure
 
 sentiment_analysis_lstm/
 ├── notebooks/
