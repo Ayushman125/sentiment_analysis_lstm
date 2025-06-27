@@ -26,23 +26,24 @@ This project focuses on building and evaluating a deep learning model for sentim
 * **Google Colab:** Cloud-based Jupyter environment with free GPU/TPU access
 * **Git / GitHub:** Version control and project hosting
 
+Markdown
+
 ## Project Structure
 
 sentiment_analysis_lstm/
 ├── notebooks/
-│   └── sentiment_analysis_lstm.ipynb  <-- Main project notebook (Colab-ready)
+│   └── sentiment_analysis_lstm.ipynb   <-- Main project notebook (Colab-ready)
 ├── sentiment_analysis/
 │   ├── init.py
-│   ├── data_preprocessing.py          <-- Functions for text cleaning and data preparation
-│   ├── model.py                       <-- LSTM model architecture and training/evaluation functions
-│   ├── predict.py                     <-- Functions for making sentiment predictions
-│   └── utils.py                       <-- (Optional: for utility functions, currently empty)
-├── app.py                             <-- (Placeholder for a web app, if intended)
-├── model_training.py                  <-- Script to run the full training pipeline locally
-├── .gitignore                         <-- Specifies files and directories to be ignored by Git
-├── requirements.txt                   <-- List of Python dependencies
-└── README.md                          <-- Project documentation (this file)
-
+│   ├── data_preprocessing.py           <-- Functions for text cleaning and data preparation
+│   ├── model.py                        <-- LSTM model architecture and training/evaluation functions
+│   ├── predict.py                      <-- Functions for making sentiment predictions
+│   └── utils.py                        <-- (Optional: for utility functions, currently empty)
+├── app.py                              <-- (Placeholder for a web app, if intended)
+├── model_training.py                   <-- Script to run the full training pipeline locally
+├── .gitignore                          <-- Specifies files and directories to be ignored by Git
+├── requirements.txt                    <-- List of Python dependencies
+└── README.md                           <-- Project documentation (this file)
 
 **Note:** Trained models (`.h5`) and tokenizer files (`.pkl`) are typically large binary files and are excluded from the repository by the `.gitignore` file. The provided notebook and `model_training.py` script will generate these files upon execution.
 
