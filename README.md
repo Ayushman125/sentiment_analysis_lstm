@@ -45,6 +45,7 @@ sentiment_analysis_lstm/
 ├── .gitignore                          <-- Specifies files and directories to be ignored by Git
 ├── requirements.txt                    <-- List of Python dependencies
 └── README.md                           <-- Project documentation (this file)
+```
 
 **Note:** Trained models (`.h5`) and tokenizer files (`.pkl`) are typically large binary files and are excluded from the repository by the `.gitignore` file. The provided notebook and `model_training.py` script will generate these files upon execution.
 
